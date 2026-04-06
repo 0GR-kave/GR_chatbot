@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                background: url(register_b4.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+               
+            }
+            .con{
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+           
+                width: 300px;
+                height: 300px;
+                margin-top: 150px;
+                border-radius: 10PX;
+                background-image: radial-gradient(circle,rgb(176,211,231,.5),rgb(109,147,170));
+                box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, .8);
+            }
+
+            #fp{
+                margin-top: 0px;
+                text-decoration: none;
+                color: black;
+            }
+            #fp:hover{
+                color: rgb(255, 255, 255);
+            }
+            #p{
+                margin-bottom: 10px;
+                margin-top: 5px;
+                border-radius: 3px;
+                border-width: 1px;
+                height: 20px;
+            }
+            #s{
+                margin-bottom: 5px;
+                height: 25px;
+                width: 80px;
+                border-radius: 5px;
+                border: none;
+            }
+            #s:hover{
+                background-color:azure;
+                font-size: 15px;
+            }
+            label{
+                font-size: 20px;
+            }
+            
+        </style>
+    </head>
+<body>
+<div class="con">
+
+<h1>LOGIN</h1>
+
+
+<form action="login.php" method="post">
+    <label for="">Email</label><br>
+<input id="p" type="email" name="email"><br>
+<LAbel>Password</LAbel><br>
+<input id="p" type="password" name="password"><br><br>
+
+<input id="s" type="submit" value="Login"> <br>
+<a id="fp" href="forgot_password.html">Forgot Password?</a>
+</form>
+
+</div>
+</body>
+</html>

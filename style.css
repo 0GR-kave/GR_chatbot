@@ -1,0 +1,130 @@
+body {
+    font-family: Arial;
+    background:url(text_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+
+}
+
+#chatbox {
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    background: url(text_b2.jpg);
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgb(000, 000, 000,.5);
+    transition-duration: 1000ms;
+}
+
+.user {
+    text-align: right;
+    background: #76f018;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.bot {
+    text-align: left;
+    background: #fff;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+pre {
+    background: black;
+    color: #0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.con1{
+  position: relative;
+  text-align: center;
+    padding: 20px;
+    
+}
+.con1 h1{
+    margin: 0;
+    text-transform: uppercase;
+    
+} 
+.con1 a{
+    position: absolute;
+    right: -480px;
+    top:50%;
+    transform: translateY(-50%);
+    background-color: rgb(64,149,182);
+    text-decoration: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border-width: 0px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 5px 0px rgb(000, 000, 000,.9);
+    color: antiquewhite;
+    font-weight: bold;
+}
+.con1 a:hover{
+    font-weight: bolder;
+    color: #e5c3c3;
+}
+.con3{
+    margin-top: 30px;
+}
+.con3 input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color:aquamarine;
+    text-align: center;
+     background-color: rgb(255, 255, 255);
+}
+#s{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color:aquamarine;
+    background-color: rgb(255, 255, 255);
+   
+}
+#lh{
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: aquamarine;
+    margin-right: 20px;
+    background-image: linear-gradient(to right,rgb(202,209,221),rgb(71,150,183));
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 0px rgb(000, 000, 000,.9);
+}
+
+
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    canvas {
+        width: 100% !important;
+    }
+
+    table {
+        width: 100%;
+    }
+}

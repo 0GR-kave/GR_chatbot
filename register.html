@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                text-align: center;
+                background: url(register_b4.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+            .container1{
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                width: 400px;
+                margin-top: 125px;
+                margin-left: 150px;
+            }
+            .container1 h1{
+                font-size: 50px;
+                text-transform: capitalize;
+            }
+            .container1 p{
+                font-size: 30px;
+                color: rgb(39, 39, 39);
+            }
+            .container2{
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                background-image: linear-gradient(to right,rgb(176,211,231,.6),rgb(109,147,170));
+                box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, .8);
+                width: 430px;
+                height: 430px;
+                margin-top: 110px;
+                border-radius: 25px;
+            }
+            .container2 h2{
+                font-size: 40px;
+            }
+            .container2 label{
+                font-size: 25px;
+                text-transform: capitalize;
+                
+            }
+            #a{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                height: 30px;
+                width: 250px;
+                border-radius: 5px;
+                border: none;
+                
+            }
+            
+            #b{
+                height: 30px;
+                width: 150px;
+                border: none;
+                border-radius: 15px;
+                text-transform: uppercase;
+                color: aliceblue;
+                background-color: rgb(48, 47, 47);
+            }
+            #b:hover{
+                background-color: rgb(0, 0, 0);
+                color: rgb(252, 240, 240);
+                transition-duration: 200ms;
+            }
+
+        </style>
+    </head>
+<body>
+<div class="container">
+
+
+<div class="container1">
+<h1>Register now!</h1>
+<p>Experience the next generation of AI designed to amplify your potential. <br>
+
+From complex problem-solving to creative brainstorming, <br> our advanced models provide instant, human-like responses to any challenge</p>
+</div>
+
+
+
+<div class="container2">
+<h2>Register</h2>
+
+<form action="register.php" method="post" >
+    <label for="">Name</label>
+<br>
+<input id="a" type="text" name="name"><br>
+
+<label for="">email</label><br>
+<input id="a" type="email" name="email"><br>
+
+<label for="">password</label><br>
+<input id="a" type="password" name="password"><br><br>
+
+<input id="b" type="submit" value="Register">
+</form>
+</div>
+
+</div>
+</body>
+</html>

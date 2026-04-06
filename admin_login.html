@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                background: url(admin_b7.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .con{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                background-image: linear-gradient(to right,rgb(243,129,5),rgb(119,26,41));
+                height: 300px;
+                width: 300px;
+                margin-top: 150px;
+                border-radius: 15px;
+                box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, .8);
+            }
+            h2{
+                font-size: 30px;
+                color: rgb(247, 222, 190);
+            }
+            #i{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+                border-width: 1px;
+                height: 20px;
+            }
+            #s{
+                box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, .6);
+                border-radius: 8px;
+                background-color: blanchedalmond;
+            }
+            label{
+                font-size: large;
+            }
+
+
+
+
+        </style>
+    </head>
+<body>
+   
+    <div class="con">
+
+<h2>Admin Login</h2>
+
+<form action="admin_login.php" method="post">
+<label for="">Email</label><br>
+<input id="i" type="email" name="email"><br>
+
+<label for="">Password</label><br>
+<input id="i" type="password" name="password"><br><br>
+
+<input id="s" type="submit" value="Login">
+
+</form>
+</div>
+
+</body>
+</html>
